@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: rgba(34, 17, 108, 1)
+}
+#navbar{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#navleft{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    align-items: center;
+}
+#navright{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+select{
+    border: none;
+}
+#b1{
+    border: none;
+}
+#home{
+    padding : 13px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    color: rgba(34, 17, 108, 1)
+}

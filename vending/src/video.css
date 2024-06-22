@@ -1,0 +1,40 @@
+#video{
+    display: flex;
+    justify-content: space-around;
+    margin: 6vh;
+}
+#videoleft{
+    display: flex;
+    align-items: center;
+}
+#videoleft button{
+    height: 6vh;
+    width: 3vw;
+    margin-right: 1vw;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+#videoright{
+    display: flex;
+    align-items: center;
+}
+#videoright button{
+    height: 6vh;
+    width: 3vw;
+    margin-right: 1vw;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+#video p{
+    width: 20vw;
+}
+#how{
+    text-align: center;
+    margin-top: 10vh;
+}
+.videoend{
+    text-align: center;
+}
+.videoend h1{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,55 @@
+#left{
+    text-align: left;
+
+}
+#right{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: end;
+}
+#right p{
+    width: 30%;
+}
+#left p{
+    width: 30%;
+    margin-bottom: 15px;
+}
+#left h1{
+    font-size: 6vh;
+    margin-bottom: 15px;
+}
+#left h2{
+    margin-bottom: 15px;
+}
+#right p{
+    width: 30%;
+    margin-bottom: 15px;
+}
+#right h2{
+    margin-bottom: 15px;
+}
+#about{
+    margin:12vw;
+    margin-top: 5vw;
+}
+#top{
+    display: flex;
+}
+#r{
+    display: flex;
+    height: 30vh;
+}
+#bottom{
+    display: flex;
+}
+#l{
+    display: flex;
+    height: 30vh;
+}
+#top #left p{
+    width: 45%;
+}
+#bottom #right p{
+    width: 45%;
+}
