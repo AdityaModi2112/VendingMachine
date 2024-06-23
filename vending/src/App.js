@@ -5,6 +5,9 @@ import About from './About.js';
 import Feeback from './Feedback.js';
 import Video from './Video.js';
 import './App.css'
+import Faq from './faq.js';
+import Brand from './brand.js';
+import Contact from './contact.js';
 function App(){
   return (
     <div>
@@ -35,6 +38,9 @@ function App(){
       <About></About>
       <Feeback></Feeback>
       <Video></Video>
+      <Faq/>
+      <Brand/>
+      <Contact/>
     </div>
   );
 }
