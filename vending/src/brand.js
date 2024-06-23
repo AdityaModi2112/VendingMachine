@@ -50,5 +50,4 @@ function Brand() {
   </div>
   );
 }
-
 export default Brand;

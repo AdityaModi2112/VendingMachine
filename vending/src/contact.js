@@ -1,6 +1,5 @@
 import React from 'react';
 import './contact.css';
-
 function Contact() {
   return (
     <div className="contact">
@@ -24,6 +23,7 @@ function Contact() {
         </div>
         <div className='contactbutton'>
             <button id='contactb'>Submit→</button>
+            <button>Submit→</button>
         </div>
       </form>
     </div>
