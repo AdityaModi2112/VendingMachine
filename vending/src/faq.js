@@ -30,7 +30,11 @@ function Faq() {
             </div>
         </div>
         <div className='faqbutton'>
+<<<<<<< HEAD
             <button className="hoverable-element" id='faqb'>Ask a Question→</button>
+=======
+            <button id='faqb'>Ask a Question→</button>
+>>>>>>> d54253ef270c7a2b19a0c814c49c2e2bcf0e06d8
         </div>
   </div>
   );
