@@ -1,6 +1,7 @@
 #spot{
     display: flex;
     justify-content: center;
+    font-family: 'Lexend Exa', sans-serif;
 }
 #spotlight{
     text-align: center;
