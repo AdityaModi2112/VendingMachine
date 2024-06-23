@@ -12,11 +12,10 @@
 #navleft{
     display: flex;
     flex-direction: column;
-    width: 35%;
     align-items: center;
 }
 #navright{
-    width: 65%;
+    width: 40%;
     display: flex;
     justify-content: space-around;
     align-items: center;

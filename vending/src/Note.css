@@ -67,7 +67,7 @@
 #post{
     width: 15vw;
     height: 7vh;
-    border-radius: 15px;
+    border-radius: 10px;
     border: 2px solid white;
 }
 #postbutton{

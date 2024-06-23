@@ -11,7 +11,6 @@ function About(){
                 </div>
                 <div id='r'>
                     <img src='img1.png'/>
-                    <img src='img2.png'/>
                 </div>
             </div>
             <div id='right'>
@@ -24,8 +23,7 @@ function About(){
             </div>
             <div id='bottom'>
                 <div id='l'>
-                    <img src='img3.png'/>
-                    <img src='img4.png'/>
+                    <img src='img2.png'/>
                 </div>
                 <div id='right'>
                     <h2>Lorem Ipsum</h2>
