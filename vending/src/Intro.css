@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@400;700&display=swap');
+
 #intro{
     display: flex;
     justify-content: space-around;
@@ -11,6 +13,7 @@
 }
 #d1{
     color: black;
+    font-family: 'Karantina', cursive;
 }
 #d1 h1{
     font-size: 8vh;
@@ -22,6 +25,7 @@
     display: flex;
     align-items:center;
     color: black;
+    font-family: 'Karantina', cursive;
 }
 #d2 h1{
     margin-right: 20px;
@@ -33,6 +37,7 @@
     display: flex;
     color: black;
     align-items: center;
+    font-family: 'Karantina', cursive;
 }
 #d3 h1{
     margin-left: 20px;
@@ -42,6 +47,7 @@
 #b{
     margin-top: 40px;
     display: flex;
+    font-family: 'Lexend Exa', sans-serif;
 }
 #b2{
     margin-right: 30px;
