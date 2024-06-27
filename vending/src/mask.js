@@ -57,5 +57,4 @@ const MaskCursor = () => {
     />
   );
 };
-
 export default MaskCursor;
