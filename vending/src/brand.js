@@ -34,19 +34,6 @@ function Brand() {
             <p className="hoverable-element">Brands/Cloud Kitchen</p>
             </div>
         </div>
-        <div className='brandname'>
-        <h1 className="hoverable-element">BRAND ALLIANCE</h1>
-        </div>
-        <div className='para1'>
-            <p className="hoverable-element">24buy7 has collaborated with many brands which helped in a</p>
-            <p className="hoverable-element">tremendous marketing of the brands.</p>
-        </div>
-        <div className='logosection'>
-
-        </div>
-        <div className='brandbutton'>
-            <button className="hoverable-element">Apply for Colab→</button>
-        </div>
   </div>
   );
 }

@@ -3,38 +3,92 @@ import './faq.css';
 function Faq() {
   return (
     <div className='faqpage'>
-        <h1 className="hoverable-element">FAQ</h1>
-        <h4 className="hoverable-element">Frequently Asked Questions by the customers.</h4>
-        <div className='faqlist'>
-            <div className='faqpara'>
-                <p className="hoverable-element">Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor.?</p>
+        <div>
+            <h1>FAQs</h1>
+        </div>
+        <div className='para'>
+            <p className="hoverable-element">Frequently Asked Questions by the customers.</p>
+        </div>
+        <div className='eachFaq'>
+            <div className='circle'>
             </div>
-            <div className='faqpara'>
-                <p className="hoverable-element">Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor.?</p>
+            <div className='content'>
+                <div className='upperContent'>
+                    <p className="hoverable-element">Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business?
+                    </p>
+                </div>
+                <div className='lowerContent'>
+                    <p className="hoverable-element">Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business?
+                    </p>
+                </div>
             </div>
         </div>
-        <div className='faqlist'>
-            <div className='faqpara'>
-                <p className="hoverable-element">Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor.?</p>
+        <hr></hr>
+        <div className='eachFaq'>
+            <div className='circle'>
             </div>
-            <div className='faqpara'>
-                <p className="hoverable-element">Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor.?</p>
+            <div className='content'>
+                <div className='upperContent'>
+                    <p className="hoverable-element">Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business?
+                    </p>
+                </div>
+                <div className='lowerContent'>
+                    <p className="hoverable-element">Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business?
+                    </p>
+                </div>
             </div>
         </div>
-        <div className='faqlist'>
-            <div className='faqpara'>
-                <p className="hoverable-element">Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor.?</p>
+        <hr></hr>
+        <div className='eachFaq'>
+            <div className='circle'>
             </div>
-            <div className='faqpara'>
-                <p className="hoverable-element">Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor. Lorem Ipsum que tui foljr menor.?</p>
+            <div className='content'>
+                <div className='upperContent'>
+                    <p className="hoverable-element">Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business?
+                    </p>
+                </div>
+                <div className='lowerContent'>
+                    <p className="hoverable-element">Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business?
+                    </p>
+                </div>
             </div>
         </div>
-        <div className='faqbutton'>
-<<<<<<< HEAD
-            <button className="hoverable-element" id='faqb'>Ask a Question→</button>
-=======
-            <button id='faqb'>Ask a Question→</button>
->>>>>>> d54253ef270c7a2b19a0c814c49c2e2bcf0e06d8
+        <hr></hr>
+        <div className='eachFaq'>
+            <div className='circle'>
+            </div>
+            <div className='content'>
+                <div className='upperContent'>
+                    <p className="hoverable-element">Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business?
+                    </p>
+                </div>
+                <div className='lowerContent'>
+                    <p className="hoverable-element">Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business?
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr></hr>
+        <div className='eachFaq'>
+            <div className='circle'>
+            </div>
+            <div className='content'>
+                <div className='upperContent'>
+                    <p className="hoverable-element">Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business?
+                    </p>
+                </div>
+                <div className='lowerContent'>
+                    <p className="hoverable-element">Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business. Customer Feedback is very important for any type of business?
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr></hr>
+        <br/><br/><br/><br/>
+        <div id='introbutton'>
+                <div id='introb'>
+                <button id='reachb' className='hoverable-element'>Ask a Question→</button>
+                </div>
         </div>
   </div>
   );

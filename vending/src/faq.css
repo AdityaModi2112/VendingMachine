@@ -1,48 +1,59 @@
 .faqpage{
+    margin-left: 10vw;
+    margin-right: 10vw;
     margin-top: 10vh;
     position: relative;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     color:white;
     font-family: 'Lexend Exa', sans-serif;
 }
-h1{
-    font-weight: bolder;
+
+.faqpage h1{
+    color:#22116C;
 }
-.faqpage h4{
-    margin-top: 3vh;
+
+.faqpage .para{
+    font-size: 0.7rem;
+    color:#636363;
+    margin-bottom: 10vh;
 }
-.faqlist{
+.faqpage .eachFaq{
     position: relative;
-    padding: 4rem;
     display: flex;
-    color:white;
-    margin-bottom: 10px;
+    flex-direction: row;
 }
-.faqpara{
+.faqpage .circle{
+    margin-top: 5vh;
     position: relative;
-    margin-right: 3vw;
-    margin-left:3vw;
-    height:2vh;
-    width:30vw;
-    /*background-color:#D9D9D9;*/
-    font-size: 0.9rem;
+    height: 20px;
+    width: 20px;
+    background-color: #22116C;
+    border-radius: 50px;
+    margin-right: 5vw;
 }
-.faqbutton{
+.faqpage .content{
     position: relative;
-    text-align: center;
-    margin-top: 6vh;
-    width:10vw;
-    height: 4vh;
-    font-size: 1.2rem;
-    background-color: white;
-    border-radius: 10px;
-    margin-bottom: 30px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
 }
-#faqb{
-    border: none;
-    background-color: transparent;
-    color:rgba(34, 17, 108, 1)
+.content .upperContent p{
+    margin-top: 2vh;
+    color:#22116C;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-bottom: 2vh;
+}
+
+.content .lowerContent p{
+    color:#636363;
+    font-size: 0.7rem;
+    margin-bottom: 2vh;
+}
+hr{
+    background-color: #636363;
+    height: 0.05vh;
+    width: 100%;
 }

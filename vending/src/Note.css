@@ -8,14 +8,18 @@
     display: none;
 }
 .feed{
-    margin-top: -5vw;
+    margin-top: 5vh;
+    font-family: 'Lexend Exa', sans-serif;
+    background-image: url('../public/feedbackbg.png');
 }
 .n{
-    width: 15vw;
-    height: 25vh;
+    text-align: start;
+    width: 17vw;
+    height: 38vh;
     padding: 20px;
     background-color: white;
     color: rgba(113, 113, 113, 1);
+    font-size: 1vw;
 }
 .checked{
     color: yellow;
@@ -40,6 +44,10 @@
 #feedback h1{
     margin-bottom:2vh;
     font-size: 5vh;
+    color:rgba(34, 17, 108, 1);
+}
+#feedback p{
+    color:rgba(173, 173, 173, 1)
 }
 #feedbackpic{
     display: flex;
@@ -69,8 +77,11 @@
     height: 7vh;
     border-radius: 10px;
     border: 2px solid white;
+    background-color: rgba(34, 17, 108, 1);
+    font-family: 'Lexend Exa', sans-serif;
 }
 #postbutton{
     display: flex;
     justify-content: center;
+    font-family: 'Lexend Exa', sans-serif;
 }

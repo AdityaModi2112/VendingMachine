@@ -44,12 +44,6 @@ function Video(){
                     </video>
                 </div>
             </div>
-            <div className='videoend'>
-                <h1 className="hoverable-element">TRUSTED BY TOP BRANDS</h1>
-                <p className="hoverable-element">Developed a network among growing startups, 
-                <br></br>MNCs, hospitals, educational institutes and 
-                <br></br>many more...</p>
-            </div>
         </div>
     );
 }

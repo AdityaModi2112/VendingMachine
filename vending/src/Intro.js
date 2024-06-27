@@ -1,18 +1,17 @@
-import "./Intro.css"
+import react from 'react';
+import './intro.css';
 function Intro(){
     return(
-        <div>
+        <div className='introbg'>
             <div id='intro'>
-                <div id='introleft'>
-                    <div id='d1'><h1 className="hoverable-element">SAVE TIME,</h1></div>
-                    <div id='d2'><h1 className="hoverable-element">SAVE MONEY</h1> with</div>
-                    <div className="hoverable-element" id='d3'>24buy7 <h1 className="hoverable-element">Vending Machines.</h1></div>
-                    <div id='b'>
-                        <button className="hoverable-element" id='b2'>Reach out to us!</button>
-                        <button className="hoverable-element" id='b2'>Learn More!</button>
-                    </div>
+                <p className='heading hoverable-element'>Bringing Convenience to Your Doorstep</p>
+                <p className='intro hoverable-element'>Welcome to 24buy7, your trusted partner in delivering top-notch snack and beverage vending solutions. We cater to a diverse range of clients including corporate offices, schools, colleges, and industrial settings. Our goal is to ensure that you have access to your favourite snacks and drinks whenever you need them, 24/7.</p>
+            </div>
+            <div id='introbutton'>
+                <div id='introb'>
+                <button id='reachb' className='hoverable-element'>Reach out us us!</button>
+                <button id='learnb' className='hoverable-element'>Learn More</button>
                 </div>
-                <div className="hoverable-element" id='introright'><img src='pic1.png' alt='not available'/></div>
             </div>
         </div>
     );

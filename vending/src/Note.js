@@ -4,7 +4,7 @@ function Note(props){
         <div className="star">
         <div className="feedbacksection">
         <div id="feedbackpic">
-            <img className="hoverable-element" src='feedback.png' alt='not available'/>
+            <img className="hoverable-element" src='feedback.png' alt='not available' height={'50vh'} width={'50vw'}/>
             <div id="name">
             <h2 className="hoverable-element">Name here</h2>
             Designation

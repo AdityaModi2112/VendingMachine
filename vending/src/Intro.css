@@ -1,59 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@400;700&display=swap');
-
-#intro{
-    display: flex;
-    justify-content: space-around;
-    margin: 45px;
-}
-#introleft{
-    padding: 15vh;
+.introbg{
+    background-image: url('../public/introbg.png');
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
-#d1{
-    color: black;
-    font-family: 'Karantina', cursive;
+#intro p{
+    font-family: "Lexend Deca", sans-serif;
 }
-#d1 h1{
-    font-size: 8vh;
-    color: black;
-}
-#d2 {
-    margin-left: 40px;
-    font-size: 2.5vh;
+#intro{
     display: flex;
-    align-items:center;
-    color: black;
-    font-family: 'Karantina', cursive;
-}
-#d2 h1{
-    margin-right: 20px;
-    font-size: 8vh;
-    color: black;
-}
-#d3 {
-    font-size: 2.5vh;
-    display: flex;
-    color: black;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    font-family: 'Karantina', cursive;
 }
-#d3 h1{
-    margin-left: 20px;
-    font-size: 8vh;
-    color: black;
+.heading{
+    color: #22116C;
+    font-size: 10vh;
+    text-align: center;
+    width: 70vw;
 }
-#b{
-    margin-top: 40px;
-    display: flex;
-    font-family: 'Lexend Exa', sans-serif;
+.intro{
+    color: #6A6A6A;
+    text-align: center;
+    width: 50vw;
+    margin: 8vh;
 }
-#b2{
-    margin-right: 30px;
-    width: 10vw;
-    padding: 1vw;
-    border: 2px solid white;
+#introbutton button{
+    width: 15vw;
+    height: 7vh;
+    border: 2px solid #22116C;
     border-radius: 10px;
-    background-color: rgba(34, 17, 108, 1);
+}
+#introbutton{
+    display: flex;
+    justify-content: space-around;
+}
+#introb{
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    color: #FFE600;
+    height: 15vh;
+}
+#reachb{
+    color: #FFE600;
+    background-color: #22116C;
+    font-family: "Lexend Deca", sans-serif;
+}
+#learnb{
+    color: #FFE600;
+    background-color: #22116C;
+    font-family: "Lexend Deca", sans-serif;
 }

@@ -1,3 +1,4 @@
+import react from 'react';
 import "./Note.css";
 import Note from "./Note.js";
 import notecontent from "./notecontent.js";
@@ -11,7 +12,7 @@ function Feeback(){
         <div className="scrollimg">
             {notecontent.map((notes)=>(<Note b={notes}/>))}
         </div>
-        <div id='postbutton'><button className="hoverable-element" id='post'>Post a Feedback →</button></div>
+        <div id='postbutton'><button id='post' className="hoverable-element">Post a Feedback →</button></div>
         </div>
     );
 }

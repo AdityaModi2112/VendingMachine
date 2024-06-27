@@ -1,41 +1,12 @@
-import './About.css';
+import react from 'react';
+import './about.css';
 function About(){
     return(
-        <div id='about'>
-            <div id='top'>
-                <div id='left'>
-                    <h1 className="hoverable-element"> ABOUT US!</h1>
-                    <h2 className="hoverable-element">Lorem Ipsum</h2>
-                    <p className="hoverable-element">Lorem Ipsum This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later.</p>
-                </div>
-                <div id='r'>
-<<<<<<< HEAD
-                    <img className="hoverable-element" src='img1.png' alt='not available'/>
-=======
-                    <img src='img1.png'/>
->>>>>>> d54253ef270c7a2b19a0c814c49c2e2bcf0e06d8
-                </div>
-            </div>
-            <div id='right'>
-                <h2 className="hoverable-element">Lorem Ipsum</h2>
-                <p className="hoverable-element">Lorem Ipsum This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later.</p>
-            </div>
-            <div id='left'>
-                <h2 className="hoverable-element">Lorem Ipsum</h2>
-                <p className="hoverable-element">Lorem Ipsum This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later.</p>
-            </div>
-            <div id='bottom'>
-                <div id='l'>
-<<<<<<< HEAD
-                    <img className="hoverable-element" src='img2.png' alt='not available'/>
-=======
-                    <img src='img2.png'/>
->>>>>>> d54253ef270c7a2b19a0c814c49c2e2bcf0e06d8
-                </div>
-                <div id='right'>
-                    <h2 className="hoverable-element">Lorem Ipsum</h2>
-                    <p className="hoverable-element">Lorem Ipsum This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later. This paragraph is just for reference, you have to edit the text later.</p>
-                </div>
+        <div>
+            <div id='about' className="hoverable-element">
+                <h1 className="hoverable-element">ABOUT US!</h1>
+                <p className="hoverable-element"> For 24Buy7 necessity was the very virtue of its existence. When a group of young students pursuing management studies felt the craving to binge on snacks and beverages but couldn't despite the in campus stall being right in front of them but unfortunately closed during the day. The dissatisfaction made them realize the need for an Unmanned Retail ATM that could dispense snacks and beverages. This gave birth to the idea of building a venture around Vending Machines and catering to on-the-go needs of the consumers anytime and everytime. 
+                <br></br> <br></br>Our first customer was the one which fed us the idea, our Alma Mater. Since then there has been no looking back and that is how 24Buy7 took off. Over time, we have catered to customers across various domains - Corporate Offices, Educational Institutions & Campuses, Residential Complexes.</p>
             </div>
         </div>
     );
