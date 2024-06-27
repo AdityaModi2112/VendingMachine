@@ -1,12 +1,13 @@
 .brandpage{
     position: relative;
-    margin-top: 15vh;
+    margin-top: 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Lexend Exa', sans-serif;
 }
 .brandpage h1{
-    color:blue;
+    color:#22116C;
     font-weight: bolder;
 }
 .para{
@@ -14,16 +15,20 @@
 }
 .para p{
     position: relative;
-    color:#808080;
-    font-weight: bolder;
+    color:rgba(128, 128, 128, 1);
     text-align: center;
 }
 .brandPic{
     position: relative;
-    margin-top: 10vh;
+    margin-top: 5vh;
     display: flex;
     padding: 1.5rem;
-    color:black;
+}
+.brandPic h2{
+    color: black;
+}
+.brandPic p{
+    color: black;
 }
 .storeGroup{
     margin-left:2vw;
@@ -39,8 +44,7 @@
 }
 .para1 p{
     position: relative;
-    color:#808080;
-    font-weight: bolder;
+    color:rgba(128, 128, 128, 1);
     text-align: center;
 }
 .brandbutton{
