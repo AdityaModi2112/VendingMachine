@@ -6,10 +6,10 @@ function Backedby(){
             <div className='backed'>
                 <p>BACKED BY</p>
                 <div className='backedimages'>
-                    <img src='riidl.png'/>
-                    <img src='startup.png'/>
-                    <img src='msis.png'/>
-                    <img src='dpiit.png'/>
+                    <img height={'100vh'} src='riidl.png'/>
+                    <img height={'100vh'} src='startup.png'/>
+                    <img height={'100vh'} src='msis.png'/>
+                    <img height={'100vh'} src='dpiit.png'/>
                 </div>
             </div>
         </div>
