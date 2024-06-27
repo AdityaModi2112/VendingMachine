@@ -4,21 +4,24 @@ import Video from './Video.js';
 import './App.css';
 import Brand from './brand.js';
 import MaskCursor from './mask.js';
+import Intro from './Intro.js';
+import About from './about.js';
+import Backedby  from './backedby.js';
 function App(){
   return (
     <div>
       <MaskCursor/>
       <div id='navbar'>
         <div id='navleft'>
-          <img className="hoverable-element" src='logo.png' alt='not available' height={'50vh'} width={'50vw'}/>
+          <img className="hoverable-element" src='logo.png' alt='not available' height={'30vh'} width={'30vw'}/>
           <h1 className="hoverable-element">24buy7</h1>
           <p className="hoverable-element">QUICK BUYING SOLUTIONS</p>
         </div>
         <div id='navright'>
           <button id='b1'><a className="hoverable-element" id='home' href=''>Home</a></button>
-          <button id='b1'><a className="hoverable-element" id='backed'href=''>Backed By</a></button>
-          <button id='b1'><a className="hoverable-element" id='blogs'href=''>Blogs</a></button>
-          <button id='b1'><a className="hoverable-element" id='aboutus'href=''>About Us</a></button>
+          <button id='b1'><a className="hoverable-element" id='backed' href=''>Backed By</a></button>
+          <button id='b1'><a className="hoverable-element" id='blogs' href=''>Blogs</a></button>
+          <button id='b1'><a className="hoverable-element" id='aboutus' href=''>About Us</a></button>
           <select className="hoverable-element">
             <option selected>Partner With Us</option>
             <option>Haldiram</option>
@@ -29,8 +32,11 @@ function App(){
           <button id='b1'><a className="hoverable-element" id='contact' href=''>Contact</a></button>
         </div>
       </div>
+      <Intro/>
       <Brand/>
+      <Backedby/>
       <Brandby/>
+      <About/>
       <Video></Video>
       <Feeback></Feeback>
     </div>

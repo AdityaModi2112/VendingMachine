@@ -10,11 +10,12 @@
 .feed{
     margin-top: 5vh;
     font-family: 'Lexend Exa', sans-serif;
+    background-image: url('feedbackbg.png');
 }
 .n{
     text-align: start;
-    width: 20vw;
-    height: 30vh;
+    width: 17vw;
+    height: 38vh;
     padding: 20px;
     background-color: white;
     color: rgba(113, 113, 113, 1);
