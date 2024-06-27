@@ -1,6 +1,8 @@
 #about h1{
     color: #22116C;
     margin: 5vh;
+    font-size: 7vh;
+    font-weight: bolder;
 }
 #about p{
     color: #6A6A6A;
